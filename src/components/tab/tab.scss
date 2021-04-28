@@ -1,0 +1,23 @@
+@import "../../variables.scss";
+
+.tab {
+    
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    color: $secondary-text;
+    font-weight: 600;
+
+    .tab-item {
+        padding: 1rem;
+        width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .tab-item--selected {
+        color: $main-text;
+    }
+}

@@ -1,0 +1,28 @@
+@import "../../variables.scss";
+
+.input {
+    background-color: $on-primary-color;
+    border: 2px solid $outline-color;
+    border-radius: 32px;
+    color: $secondary-text;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+    overflow: hidden;
+
+    .input-box {
+        width: 100%;
+        align-self: center;
+        text-align: start;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        color: $main-text;
+        padding: 1rem;
+    }
+    ::placeholder {
+        color: $outline-color;
+    }
+}

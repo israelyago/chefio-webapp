@@ -5,6 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input {
+  font-family: 'Inter-Medium';
+}
+
 @font-face {
   font-family: 'Inter-Bold';
   font-weight: bold;
@@ -16,6 +20,12 @@ body {
   font-family: 'Inter-Medium';
   font-weight: 500;
   src: local('Inter-Medium'), url('fonts/Inter-Medium.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  font-weight: 600;
+  src: local('Inter-SemiBold'), url('fonts/Inter-SemiBold.ttf') format("truetype");
 }
 
 code {

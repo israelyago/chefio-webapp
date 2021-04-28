@@ -1,0 +1,31 @@
+@import "../../variables.scss";
+
+.button {
+    padding: 1rem 1.5rem;
+    background-color: $primary-color;
+    color: $on-primary-color;
+    border-radius: 32px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+
+    &.button--primary {
+        background-color: $primary-color;
+    }
+
+    &.button--secondary {
+        background-color: $on-primary-color;
+        border: 2px solid $outline-color;
+        color: $secondary-text;
+    }
+
+    &.button--neutral {
+        background-color: $form-color;
+        color: $secondary-text;
+    }
+
+    &.button--destructive {
+        background-color: $secondary-color;
+    }
+}
