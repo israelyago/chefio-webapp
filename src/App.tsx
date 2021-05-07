@@ -8,6 +8,7 @@ import lockIcon from './icons/svg/wallet-2036078.svg';
 import searchIcon from './icons/svg/search-2036105.svg';
 import Tab from './components/tab/tab';
 import FeedPost from './components/feed-post/feed-post';
+import RecipeDetails from './components/recipe-details/recipe-details';
 
 function App() {
   return (
@@ -81,7 +82,13 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="screen-frame"></div>
+          <div className="screen-frame">
+            <div className="screen-frame__content">
+              <div className="content">
+                <RecipeDetails />
+              </div>
+            </div>
+          </div>
           <div className="screen-frame"></div>
           <div className="screen-frame"></div>
           <div className="screen-frame"></div>
