@@ -1,7 +1,6 @@
 import React from 'react';
 import './recipe-details.scss';
 import hearthIcon from '../../icons/svg/heart-2036065.svg';
-import checkIcon from '../../icons/svg/check.svg';
 import Ingredient from '../ingredient/ingredient';
 
 interface recipeDetailsProps {
