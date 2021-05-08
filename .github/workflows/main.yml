@@ -35,14 +35,14 @@ jobs:
       - name: Build the project
         run: npm run build
         
-      - name: Change directory
-        run: cd build
-        
       # Runs a set of commands using the runners shell
-      - name: Uploud to the branch
+      - name: Uploud to the branch prod
         run: |
+          cd build
+          git config --global user.name "GitHub Bot"
+          git config --global user.email "noreply@github.com"
           git init
           git add .
-          git commit -m "Updating project"
-          git remote add origin https://github.com/israelyago/chefio-webapp.git
+          git commit -m "Auto deploy from GitHub Actions build $GITHUB_RUN_NUMBER"
+          git remote add origin https://${{ secrets.GIT_TOKEN }}@github.com/israelyago/chefio-webapp.git
           git push --force origin master:prod
