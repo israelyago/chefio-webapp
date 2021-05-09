@@ -63,7 +63,7 @@ function App() {
               <div className="content">
                 <Input text="Search" iconSrc={searchIcon} />
                 <h2 className="mt-2 text-start">Category</h2>
-                <div className="flex-row flex-wrap space-around">
+                <div className="flex flex-row flex-wrap space-around">
                   <Button text="All" type={ButtonVariants.Primary}/>
                   <Button text="Food" type={ButtonVariants.Neutral}/>
                   <Button text="Drink" type={ButtonVariants.Neutral}/>
@@ -84,7 +84,7 @@ function App() {
           </div>
           <div className="screen-frame">
             <div className="screen-frame__content">
-              <div className="content">
+              <div className="content height-100 overflow-auto">
                 <RecipeDetails />
               </div>
             </div>
