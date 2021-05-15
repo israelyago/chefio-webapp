@@ -9,7 +9,7 @@ export enum inputVariants {
 
 interface inputProps {
     text: string,
-    iconSrc: string,
+    iconSrc?: string,
     type?: inputVariants,
 }
 
@@ -18,7 +18,11 @@ export const Input: React.FC<inputProps> = (props) => {
     const classes = `input ${variant}`;
     return (
         <div className={classes}>
-            <img src={props.iconSrc} alt="" className="src"/>
+            {(() => {
+                if (props.iconSrc) {
+                    return <img src={props.iconSrc} alt="" className="src"/>
+                }
+            })()}
             <input className="input-box" placeholder={props.text} />
         </div>
     )

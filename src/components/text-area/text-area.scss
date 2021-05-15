@@ -1,0 +1,16 @@
+@import "../../variables.scss";
+
+.text-area {
+  padding: 1rem;
+  border: 2px solid $outline-color;
+  border-radius: 0.5rem;
+  outline: none;
+  color: $main-text;
+  font-family: "Inter-Medium";
+  font-weight: 500;
+  resize: none;
+
+  &::placeholder {
+    color: $secondary-text;
+  }
+}

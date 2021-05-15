@@ -70,12 +70,22 @@ hr {
   font-weight: bold;
 }
 
+.primary-color-text {
+  color: $primary-color;
+}
+.secondary-text {
+  color: $secondary-text;
+}
+.secondary-color-text {
+  color: $secondary-color;
+}
+
 .App {
   text-align: center;
 }
 
 main {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   padding: 0.5vw;
 }
 
@@ -102,6 +112,26 @@ main {
 .content {
   display: flex;
   flex-direction: column;
+  padding: 1.5rem;
+}
+.border {
+  border: 2px solid $outline-color;
+  border-radius: 1rem;
+}
+.border-dashed {
+  border-style: dashed;
+}
+.size-4 {
+  width: 4rem;
+  height: 4rem;
+}
+.pt-0-5 {
+  padding-top: 0.5rem;
+}
+.p-1 {
+  padding: 1rem;
+}
+.p-1-5 {
   padding: 1.5rem;
 }
 
@@ -134,8 +164,14 @@ main {
 .text-start {
   text-align: start;
 }
+.align-self-start {
+  align-self: flex-start;
+}
 .flex {
   display: flex;
+}
+.flex-column {
+  flex-direction: column;
 }
 .flex-row {
   flex-direction: row;
