@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "https://israelyago.github.io/chefio-webapp/static/css/main.7046dc98.chunk.css",
+    "main.js": "https://israelyago.github.io/chefio-webapp/static/js/main.0822eb18.chunk.js",
+    "main.js.map": "https://israelyago.github.io/chefio-webapp/static/js/main.0822eb18.chunk.js.map",
+    "runtime-main.js": "https://israelyago.github.io/chefio-webapp/static/js/runtime-main.253ddb2c.js",
+    "runtime-main.js.map": "https://israelyago.github.io/chefio-webapp/static/js/runtime-main.253ddb2c.js.map",
+    "static/js/2.fd5bd1d3.chunk.js": "https://israelyago.github.io/chefio-webapp/static/js/2.fd5bd1d3.chunk.js",
+    "static/js/2.fd5bd1d3.chunk.js.map": "https://israelyago.github.io/chefio-webapp/static/js/2.fd5bd1d3.chunk.js.map",
+    "static/js/3.f9d18751.chunk.js": "https://israelyago.github.io/chefio-webapp/static/js/3.f9d18751.chunk.js",
+    "static/js/3.f9d18751.chunk.js.map": "https://israelyago.github.io/chefio-webapp/static/js/3.f9d18751.chunk.js.map",
+    "index.html": "https://israelyago.github.io/chefio-webapp/index.html",
+    "static/css/main.7046dc98.chunk.css.map": "https://israelyago.github.io/chefio-webapp/static/css/main.7046dc98.chunk.css.map",
+    "static/js/2.fd5bd1d3.chunk.js.LICENSE.txt": "https://israelyago.github.io/chefio-webapp/static/js/2.fd5bd1d3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "https://israelyago.github.io/chefio-webapp/static/media/Inter-SemiBold.c6588ec1.ttf",
+    "static/media/Onboarding.45410fff.png": "https://israelyago.github.io/chefio-webapp/static/media/Onboarding.45410fff.png",
+    "static/media/check.c27c3965.svg": "https://israelyago.github.io/chefio-webapp/static/media/check.c27c3965.svg",
+    "static/media/heart-2036065.9e737ba9.svg": "https://israelyago.github.io/chefio-webapp/static/media/heart-2036065.9e737ba9.svg",
+    "static/media/hearth.4e7b17c4.svg": "https://israelyago.github.io/chefio-webapp/static/media/hearth.4e7b17c4.svg",
+    "static/media/img.642ff6e7.svg": "https://israelyago.github.io/chefio-webapp/static/media/img.642ff6e7.svg",
+    "static/media/message-2036086.e370385a.svg": "https://israelyago.github.io/chefio-webapp/static/media/message-2036086.e370385a.svg",
+    "static/media/search-2036105.dac252d5.svg": "https://israelyago.github.io/chefio-webapp/static/media/search-2036105.dac252d5.svg",
+    "static/media/wallet-2036078.8c2057a9.svg": "https://israelyago.github.io/chefio-webapp/static/media/wallet-2036078.8c2057a9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.253ddb2c.js",
+    "static/js/2.fd5bd1d3.chunk.js",
+    "static/css/main.7046dc98.chunk.css",
+    "static/js/main.0822eb18.chunk.js"
+  ]
+}
